@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ddd;
+}
+#message{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    text-align: right;
+}
+#parent{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reset{
+    margin-top: 30px;
+    padding: 20px 80px;
+    font-size: 20px;
+}
+
+#chessBoard .square{
+    float: left;
+    width: 125px;
+    height: 125px;
+    box-sizing:border-box;
+    border: #000 solid .01cm;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.red-border{
+    border: 1px solid red!important;
+}
+
+.piece-white{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.piece-black{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 2px solid white;
+}
+
