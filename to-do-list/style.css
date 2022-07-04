@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#parentDiv{
+    margin: 0 auto;
+    width: 90vw!important;
+    height: 80vh!important;
+
+}
+
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.row{
+    flex-direction: row;
+}
+
+.section{
+    border-right: 1px solid black;
+    height: 100%;
+    width: 33%;
+}
+li{
+    position: relative;
+}
+.remove-task{
+    color: red;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#form{
+    width: 100%;
+    height: 400px;
+}
+#title{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#task{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}

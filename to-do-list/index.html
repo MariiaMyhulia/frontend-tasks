@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="parentDiv" class='flex space-between row' style="width: 1000px; height: 1000px;">
+    <div class = 'section' id = 'summeryList'>
+        <span id="taskLable"></span>
+    </div>
+    <div class = 'section' id = 'showTodo'></div>
+    <div class = 'section' id = 'addToDos'>
+        <div class="container">
+            <h1>Local Storage</h1>
+            <div class="section1">
+                <label for="prior">Priority</label>
+                <select name="prioriries" id="prior">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+            </div>
+            <div class="section1">
+                <form action="#" id="form">
+                    <label for="title">Title:</label>
+                    <textarea id="title" ></textarea>
+
+                    <label for="task">Task:</label>
+                    <textarea id="task" ></textarea>
+
+                    <button type="submit" id="test">Submit form</button>
+                </form>
+            </div>
+            <div class="section1">
+                <h2>Tasks:</h2>
+                <div id="task-list"></div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
