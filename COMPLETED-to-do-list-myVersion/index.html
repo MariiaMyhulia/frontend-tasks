@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>TO DO</title>
+</head>
+<body>
+
+
+<h1>ToDoList</h1>
+<div class="flex-wrapper flex column center">
+    <div class="add-todo-wrapper flex center">
+        <div class="input-wrapper">
+
+            <label for="task-title">title</label>
+            <input type="text" id="task-title">
+
+            <label for="task-description">description</label>
+            <textarea id="task-description" name="description" rows="4" cols="50"></textarea>
+
+            <label for="priority">Priority:</label>
+            <select id="priority">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+        </div>
+        <div class="button-wrapper flex">
+            <button id="add-task-btn">Add task</button>
+        </div>
+    </div>
+
+
+        <button id="priority-filter">Sort tasks by priority</button>
+
+
+    <h2>Tasks</h2>
+    <div class="todos-wrapper">
+
+    </div>
+    <div id="message" class="flex center"></div>
+</div>
+
+<script src="assets/scripts/script.js"></script>
+</body>
+</html>
